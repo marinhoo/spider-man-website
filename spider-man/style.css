@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+      to right bottom,
+      #cd0000,
+      #a31418,
+      #781e20,
+      #4c2121,
+      #1e1d1d
+    )
+    no-repeat fixed;
+}
+
+.center {
+  width: 90%;
+  margin: 0px auto;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+header .logo {
+  width: 90px;
+  height: 112px;
+  background-image: url("images/logo.png");
+  background-size: 100% 100%;
+  position: relative;
+  top: -8px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  width: 70%;
+  height: 100%;
+  padding-top: 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  list-style-type: none;
+  list-style-position: inside;
+  transition: all 0.3s;
+  padding: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 5px #1e1d1d;
+}
+
+header nav ul li:hover {
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 2px;
+  border-bottom: 3px solid #f1d302;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.comics {
+  position: relative;
+  text-align: center;
+}
+
+.teioso {
+  width: 360px;
+  height: 520px;
+  background-image: url("images/comics.png");
+  background-size: cover;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.quote {
+  position: absolute;
+  left: 50%;
+  top: 450px;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.quote h2 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 20px #1d1e1d;
+}
+
+.actors{
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.actors h1{
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 20px #1d1e1d;
+  border-bottom: 3px solid #f1d302;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+}
+
+.cards .box{
+  position: relative;
+  width: 30%;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px black;
+  overflow: hidden;
+}
+
+.cards .box .box-bg{
+  position: absolute;
+  top: 0;
+  top: 0;
+  transition: all 1.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+
+.cards .box:first-child .box-bg{
+  background-image: url("images/homem_aranha__jay_maidment_widelg.jpg");
+  background-size: cover;
+  background-position: 65%;
+  border-radius: 5px;
+}
+
+.cards .box:nth-child(2) .box-bg{
+  background-image: url("images/andrew.jpg");
+  background-size: cover;
+  
+  border-radius: 5px;
+}
+
+.cards .box:last-child .box-bg{
+  background-image: url("images/tobey.jpg");
+  background-size: cover;
+  background-position: top;
+  border-radius: 5px;
+}
+
+.cards .box .box-bg h2{
+  color: white;
+  position: absolute;
+  top: 375px;
+  left: 20px;
+  text-shadow: 0 0 15px black;
+}
+
+.cards .box:hover .box-bg, .box-bg h2{
+  transform: translateY(-100%);
+}
+
+.cards .box .layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 1.5s ease-in-out;
+}
+
+.cards .box .layer1{
+  background-image: url("images/frontcomic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.cards .box:hover .layer1{
+  transform: translateY(-100%);
+}
+
+.cards .box .layer2{
+  background-image: url("images/teioso.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transform: translateY(200%);
+}
+
+.cards .box:hover .layer2{
+  transform: translateY(-100%);
+}
+
+
+.cards .box .description{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  transition: all 1.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  transform: translateY(300%);
+}
+
+.cards .box:hover .description{
+  transform: translateY(0);
+}
+
+.cards .box .description h2{
+  transition: 2s ease-in-out;
+  transform: translateY(400%);
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.cards .box .description p{
+  transition: 2s ease-in-out;
+  transform: translateY(400%);
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.cards .box:hover .description h2{
+  transform: translateY(0);
+}
+
+.cards .box:hover .description p{
+  transform: translateY(0);
+}
+
+
+footer{
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+}
+
+footer .copyright{
+  width: 50%;
+  margin-top: 30px;
+  float: left;
+}
+
+footer span{
+  color: white;
+  display: inline-block;
+  font-size: 15px;
+}
+
+
+footer .nav{
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+
+footer ul{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer li{
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+footer a{
+  width: 32px;
+  height: 32px;
+}
+
+.github{
+  background-image: url("images/github.png");
+  background-size: 100% 100%;
+}
+
+.linkedn{
+  background-image: url("images/linkedin.png");
+  background-size: 100% 100%;
+}
+
+.insta{
+  background-image: url("images/instagram.png");
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1024px){
+  .cards{
+    flex-flow: row wrap;
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    align-content: space-around;
+  }
+  
+  .cards .box{
+    width: 60%;
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  header {
+    height: 200px;
+  }
+  
+  header .logo {
+   left: 50%;
+   transform: translateX(-50%);
+  }
+  
+  header nav {
+    float: right;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+    list-style-position: inside;
+    transition: all 0.3s;
+    padding: 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 5px #1e1d1d;
+  }
+  
+  header nav ul li:hover {
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 2px;
+    border-bottom: 3px solid #f1d302;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+}
