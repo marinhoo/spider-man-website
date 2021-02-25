@@ -6,9 +6,7 @@ Não poderia deixar de fazer sobre um dos principais personagens da cultara pop,
 
 <img src="/spider-man/images/mememaster.gif" width="400px">
 
-O código está disponível no meu Github na bio e no próprio site do Codier.
-
-[Codier account](https://codier.io/@marinho)
+O Codier é um site repleto de desafios para quem quer criar novos projetos ou para aqueles que precisam de ideias de projetos. Entre no [Codier](https://codier.io/) e veja os desfios que mais te interessam. Os meus projetos estarãos na minha conta: [@marinho](https://codier.io/@marinho)
 
 Caso tenha curtido do meu projeto e queira me ajudar marque a  **estrela** :arrow_up:
 
