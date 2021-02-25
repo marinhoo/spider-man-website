@@ -1,14 +1,14 @@
 # Spider-Man Website :spider:
 
-Essa Web Page responsiva foi criada a partir de um desafio do site Codier. O desafio era criar um projeto simples sobre um Avenger.
+Essa Web Page responsiva foi criada a partir de um desafio do site Codier. O desafio era criar um projeto simples sobre um **Avenger**.
   
-Não poderia deixar de fazer sobre um dos principais personagens da cultara pop, nosso cabeça de teia.
+Não poderia deixar de fazer sobre um dos principais personagens da cultara pop, o nosso cabeça de teia.
 
 <img src="/spider-man/images/mememaster.gif" width="400px">
 
 O Codier é um site repleto de desafios para quem quer criar novos projetos ou para aqueles que precisam de ideias de projetos. Entre no [Codier](https://codier.io/) e veja os desfios que mais te interessam. Os meus projetos estarãos na minha conta: [@marinho](https://codier.io/@marinho)
 
-Caso tenha curtido do meu projeto e queira me ajudar marque a  **estrela** :arrow_up:
+Caso tenha curtido o meu projeto e queira me ajudar marque a  **estrela** :arrow_up:
 
 <img src="/spider-man/images/perfect.jfif" width="200px">
 
