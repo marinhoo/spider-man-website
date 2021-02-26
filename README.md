@@ -14,5 +14,7 @@ Caso tenha curtido o meu projeto e queira me ajudar marque a  **estrela** :arrow
 
 Também se puder me siga no [Instagram](https://www.instagram.com/marinho.dev/), no [LinkedIn](https://www.linkedin.com/in/matheus-marinho-71ab321b6/) e também aqui no [Github](https://github.com/marinhoo). Caso queira dar um feedback ou sugestão é só mandar uma mensagem por meio de algumas dessas redes acima :arrow_up:
 
+<img src="/spider-man/images/spiderfirst.jpg" width="300px"> <img src="/spider-man/images/spidersecond.jpg" width="300px"> 
+
 Caso queira acessar a webpage esse é o link dela:
 :arrow_right: [Link do projeto](https://marinhoo.github.io/spider-man-website/spider-man/)
